@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', sans-serif;
+    width: 600px;
+} 
+
+.title-container {
+    background-image: url("images/ferks-guare-KEZdWfYD-ow-unsplash.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    margin-bottom: 67px;
+}
+
+.title {
+    margin: 0;
+    font-size: 39px;
+    padding: 46px 0 19px 46px;
+}
+
+.title-desc {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 0 0 70px 46px;
+    margin: 0
+}
+
+.item-container{
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    width: 508px;
+    margin: 0 auto 45px auto
+}
+
+.item-graphic {
+    font-size: 78.72px;
+    margin: 0;
+    padding-bottom: 51px
+}
+
+.food-container {
+    margin: 0 31px;
+}
+
+.item-title {
+    font-size: 28px;
+    margin: 0;
+}
+
+.item-desc {
+    color: #8B8B8B;
+    margin: 8.8px 0 8px 0
+}
+
+.item-price {
+    font-size: 20px;
+    margin: 0;
+}
+
+.add-btn {
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin: 0 0 auto auto
+}
+
+.order-container {
+    width: 508px;
+    margin: 0 auto 53px auto;
+}
+
+.order-title {
+    font-size: 28px;
+    text-align: center;
+    line-height: 16.8px;
+    margin: 0 0 64px 0;
+}
+
+.order-items {
+    border-bottom: 2px solid #393333;
+    margin-bottom: 14px
+}
+
+
+.order-list {
+    display: flex;
+    gap: 13px;
+    margin-bottom: 14px
+}
+
+.remove-item-btn {
+    font-size: 12px;
+    line-height: 24px;
+    background: #FFFFFF;
+    color: #BBBBBB;
+    border: none;
+    margin: auto 0 0 0
+}
+
+.order-container .item-price {
+    margin: auto 0 auto auto
+}
+
+.total-price {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.order-btn, 
+.pay-btn {
+    color: #FFFFFF;
+    background: #16DB99;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+}
+
+.order-btn {
+    border-radius: 3px;
+    padding: 18px 0;
+}
+
+.modal-container {
+    background: #FFFFFF;
+    font-family: 'Arimo', sans-serif;
+    width: 524px;
+    border-radius: 3.89px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 50vmax rgba(0,0,0,.5);
+}
+
+.form-title {
+    font-weight: 700;
+    text-align: center;
+    margin: 47px 0;
+}
+
+.order-form {
+    width: 476px;
+    margin: 0 0 30px 23.22px;
+}
+
+input {
+    width: 446px;
+    border: 1.3px solid #757575;
+    border-radius: 3.89px;
+    font-size: 20px;
+    padding: 16.58px 0 13.8px 26.53px;
+    margin: 0 0 23.22px 0;
+}
+
+.pay-btn {
+    font-size: 20px;
+    border-radius: 3.89px;
+    padding: 16.58px 0 13.8px 0;
+}
+
+.order-receipt {
+    color: #065F46;
+    background: #ECFDF5;
+    width: 504px;
+    margin: 0 auto 30px auto;
+}
+
+.user-receipt {
+    padding: 51px 66px 52px 59px;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.rate {
+    color: #ffb703;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 20px 0
+}
+
+.order-review {
+    width: 504px;
+    margin: 0 auto 252px auto;
+    display: flex;
+}
+
+i {
+    font-size: 50px;
+    margin: 0 auto
+}
+
+.fa-star {
+    color: #ffb703
+}
+
+/* utility classes */
+
+.padding-bottom {
+    padding-bottom: 17px;
+}
+
+.no-display {
+    display: none;
+}
+
+.margin-bottom {
+    margin-bottom: 46px
+}
